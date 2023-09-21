@@ -139,7 +139,7 @@ export class {{classname}}RequestFactory extends BaseAPIRequestFactory {
         {{/hasFormParams}}
         {{#bodyParam}}
 
-        // Body Params
+        // Body Params HI!
         const contentType = ObjectSerializer.getPreferredMediaType([{{#consumes}}
             "{{{mediaType}}}"{{^-last}},{{/-last}}
         {{/consumes}}]);
